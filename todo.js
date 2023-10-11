@@ -3,7 +3,7 @@
 
 function add_task(){
     if (input.value === "" ){
-        alert("You must type something")
+        alert("You must type something");
     } else{
         let li = document.createElement('li');
         li.innerHTML = input.value;
